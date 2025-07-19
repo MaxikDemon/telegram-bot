@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 from langdetect import detect
 
-API_TOKEN = os.getenv(7194545111:AAH2xhvxDhfH76nDUvVKGPRHO1WKbCAZq8w)
+API_TOKEN = os.getenv("7194545111:AAH2xhvxDhfH76nDUvVKGPRHO1WKbCAZq8w")
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
